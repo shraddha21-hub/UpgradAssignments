@@ -18,7 +18,7 @@ public class Main {
         int sub=s1-s2;
         System.out.println("Addition of two no :" +sum +"Substraction of two no :" +sub);
 
-        //java code to print number positions at ones,tens,hundreds,thousands
+        //java code to print number positions at ones,tens,hundreds,thousands,ten thousands
         int num =  23456;
         int ones = num%10;
         System.out.println("numbers in the ones : " +ones);
@@ -44,7 +44,18 @@ public class Main {
         num1 = num1-num2;
         System.out.println("num1 is " +num1);
         System.out.println("num2 is " +num2);
+        //casting example
+        int marks1 = 20;
+        int marks2 = 40;
+        int marks3 = 50;
 
+        double average = ((double)marks1 + (double)marks2 + (double)marks3)/3;
+        System.out.println(average);
+
+        // another example
+        char x = 'a';
+        int z = (int)x;
+        System.out.println(z);
 
 
 
