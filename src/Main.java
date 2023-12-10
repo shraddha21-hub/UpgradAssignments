@@ -48,16 +48,17 @@ public class Main {
         int marks1 = 20;
         int marks2 = 40;
         int marks3 = 50;
-
         double average = ((double)marks1 + (double)marks2 + (double)marks3)/3;
         System.out.println(average);
-
         // another example
         char x = 'a';
-        int value = (int)x;
+        int value;
+        value = (int)x;
         System.out.println(value);
-
-
-
+        //celcius to farenhit
+        int cel = sc.nextInt();
+        float celcius = (float)cel;
+        float f = (9*celcius)/5+32;
+        System.out.println(f);
     }
 }
