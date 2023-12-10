@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         //exchange value of variable a & b
@@ -32,6 +34,18 @@ public class Main {
         num = num/10;
         int ten_thousands = num%10;
         System.out.println("numbers in the ten thousands : " +ten_thousands);
+
+        //swapping two numbers without using third variable
+        Scanner sc = new Scanner(System.in);
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        num1 = num1+num2;
+        num2 = num1-num2;
+        num1 = num1-num2;
+        System.out.println("num1 is " +num1);
+        System.out.println("num2 is " +num2);
+
+
 
 
     }
