@@ -54,8 +54,8 @@ public class Main {
 
         // another example
         char x = 'a';
-        int z = (int)x;
-        System.out.println(z);
+        int value = (int)x;
+        System.out.println(value);
 
 
 
